@@ -54,7 +54,3 @@ The model prediction shows complete failure because it identified a different cl
 The system requires complete system enhancements to reach an accuracy level of 11.8 percent. The first critical step is fixing the prediction pipeline by including trained layers in the probability model. The next step requires regularization to be implemented through Dropout(0.3) which will follow dense layers and L2 regularization which will apply to all dense layers to prevent overfitting. The architecture requires additional hidden layers which should contain 256 or 512 neurons to achieve better learning abilities.
 
 The training process needs optimization through two methods which include implementing validation during training and setting the learning rate to 0.0005 and increasing training time while monitoring validation loss to stop overfitting. Data augmentation through rotations and shifts creates artificial dataset expansion for Fashion MNIST even though it presents difficulties. The implementation of EarlyStopping through callbacks will control training management because it automatically stops when progress ceases while it adjusts the learning rate.
-
----
-
-<p align="center">Made with ❤️ for Deep Learning</p>
